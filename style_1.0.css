@@ -1,0 +1,796 @@
+/*CommonClasses*/
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: cursive;
+}
+
+#wrapper {
+    text-align: -webkit-center;
+}
+
+a {
+    color: black;
+}
+
+.cyantxt {
+    color: #5fcac7;
+}
+
+.wrapper {
+    width: 90%;
+    align-content: center;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.listnone {
+    list-style: none;
+}
+
+.txtdecornone {
+    text-decoration: none;
+}
+
+.blacktxt {
+    color: black;
+}
+
+.hv:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#language {
+    height: 100px;
+}
+
+.wake {
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+.hide {
+    display: none;
+}
+
+.clear {
+    clear: both;
+}
+
+/*-----------------------------------------*/
+/*HEADER*/
+#header {
+    height: 100px;
+    position: fixed;
+    top: 0;
+    margin-bottom: 100px;
+    background-color: white;
+}
+
+#header h2 {
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-position: 10% 50%;
+    color: #5fcac7
+}
+
+#header h2 a {
+    text-decoration: none;
+}
+
+#navigationbar {
+    width: 49%;
+}
+
+#header ul li {
+    padding-right: 3%;
+    list-style-position: inside;
+    list-style: none;
+}
+
+#header ul li a:hover {
+    color: #5fcac7;
+    cursor: pointer;
+}
+
+#absid:hover #absmndropdown,
+#cokieid:hover #cokiemndropdown {
+    display: block;
+}
+
+#cokieid:hover #cokiemndropdown {
+    display: block;
+}
+
+#ournewsid:hover #ournewsmndropdown {
+    display: block;
+}
+
+#accid:hover #accmndropdown {
+    display: block;
+}
+
+
+/*MENU*/
+#header ul li #absmndropdown {
+    width: 20px;
+    margin-left: -215px;
+    z-index: 20 !important;
+    position: relative;
+}
+
+#header ul li #cokiemndropdown {
+    width: 20px;
+    margin-left: -215px;
+    z-index: 20 !important;
+    position: relative;
+}
+
+#header ul li #ournewsmndropdown {
+    width: 20px;
+    margin-left: -215px;
+    z-index: 20 !important;
+    position: relative;
+}
+
+#header ul li #accmndropdown {
+    width: 20px;
+    margin-left: -215px;
+    z-index: 20 !important;
+    position: relative;
+}
+
+#absmndropdown li,
+#cokiemndropdown li,
+#ournewsmndropdown li,
+#accmndropdown li {
+    font-weight: bold;
+    line-height: 30px;
+    border-bottom-style: solid;
+}
+
+#absmndropdown li {
+    width: 200px;
+    background-color: aliceblue;
+    opacity: 0.9;
+}
+
+#cokiemndropdown li {
+    width: 200px;
+    background-color: aliceblue;
+    opacity: 0.9;
+}
+
+#ournewsmndropdown li {
+    width: 200px;
+    background-color: aliceblue;
+    opacity: 0.9;
+}
+
+#accmndropdown li {
+    width: 200px;
+    background-color: aliceblue;
+    opacity: 0.9;
+}
+
+#absmndropdown li:hover,
+#cokiemndropdown li:hover,
+#ournewsmndropdown li:hover,
+#accmndropdown li:hover {
+    opacity: 0.5;
+}
+
+#absmndropdown li a,
+#cokiemndropdown li a,
+#ournewsmndropdown li a,
+#accmndropdown li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*SLIDER*/
+#slideshow {
+    overflow: hidden;
+    height: 300px;
+    width: 800px;
+    margin: 0 auto;
+    /*    z-index: -1;*/
+    /*    position: absolute;*/
+    margin-top: 100px;
+}
+
+.slide-wrapper {
+    width: 2912px;
+    animation: slide 10s ease infinite;
+}
+
+.slide {
+    float: left;
+    height: 300px;
+    width: 800px;
+}
+
+.slide:nth-child(1) {
+    background-image: url(img/banner1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slide:nth-child(2) {
+    background-image: url(img/banner2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slide:nth-child(3) {
+    background-image: url(img/banner3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+@keyframes slide {
+    0% {
+        margin-left: 0px;
+    }
+
+    30% {
+        margin-left: 0px;
+    }
+
+    60% {
+        margin-left: -800px;
+    }
+
+    100% {
+        margin-left: -1600px;
+    }
+}
+
+
+
+/*BODY*/
+
+
+#body #body1 center {
+    color: #FF91A4;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: "Merienda One";
+}
+
+#body #body1 ul {
+    margin-left: -40px;
+}
+
+#body #body1 ul li {
+    width: 20%;
+    list-style: none;
+    margin-right: 6.66%;
+}
+
+#body #body1 ul li:last-child {
+    margin-right: 0;
+}
+
+#body #body1 ul li:hover {
+    opacity: 0.5;
+}
+
+#body #body1 ul li a img {
+    border-radius: 50%;
+    border: 5px solid #5fcac7;
+}
+
+#body #body1 {
+    height: 400px;
+    margin: 50px 0px 50px;
+}
+
+#body2 {
+    height: 300px;
+    margin: 50px 0px 50px;
+    background-image: url(img/bodybg2.jpg);
+}
+
+#body2 h2 {
+    color: #FFFFFF;
+    font-size: 60px;
+    font-family: "Merienda One";
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+#body2 p {
+    width: 60%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+#body2 center:hover {
+    opacity: 0.5;
+}
+
+#body2 center {
+    margin-top: 50px;
+}
+
+#body2 center a {
+    text-decoration: none;
+}
+
+#body2 center a span {
+    padding: 10px 40px;
+    border-style: solid;
+    border-color: currentColor;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+
+#body #body3 center {
+    color: #FF91A4;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: "Merienda One";
+}
+
+#body #body3 #threepicli {
+    width: 20%;
+    list-style: none;
+}
+
+#body #body3 #threepic li {
+    list-style: none;
+}
+
+#body #body3 #body3items #threepic li:hover {
+    opacity: 0.5;
+    border: 2px;
+    border-style: solid;
+    border-color: red;
+}
+
+#body #body3 ul li ul li {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+#singpicli {
+    list-style: none;
+    width: 40%;
+}
+
+#body #body3 ul #singpicli {
+    width: 40%;
+    padding: 0px 20px;
+}
+
+#parali {
+    padding: 10px;
+    list-style: none;
+    width: 30%;
+    text-align: left;
+}
+
+#body #body3 ul #parali h4 {
+    margin-bottom: 20px;
+}
+
+#body #body3 ul #parali h2 {
+    margin-bottom: 20px;
+}
+
+#body #body3 ul #parali h1 {
+    margin-bottom: 20px;
+}
+
+#parali p {
+    margin-bottom: 50px;
+}
+
+#body3btn {
+    border-radius: 40px;
+    background-color: darkcyan;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+#body3btn:hover {
+    opacity: 0.5;
+}
+
+#body3btn a {
+    text-decoration: none;
+    color: white;
+}
+
+/*-----------body4--------------*/
+#body4 {
+    height: 700px;
+    margin: 50px 0px 50px;
+    background-image: url(img/body4bg.jpg);
+    padding: 30px 0px;
+}
+
+#body #body4 center {
+    color: #FF91A4;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: "Merienda One";
+}
+
+#body4ul1 li:hover {
+    opacity: 0.5;
+}
+
+#body4ul2 li:hover {
+    opacity: 0.5;
+}
+
+#body4ul1 li,
+#body4ul2 li {
+    width: 30%;
+    margin-right: 5%;
+    list-style: none;
+    margin-bottom: 5%;
+    margin-left: -10px;
+}
+
+#body4ul1 li:last-child,
+#body4ul2 li:last-child {
+    margin-right: 0px;
+}
+
+/*--------body5---------*/
+.body5hideimg {
+    display: none;
+    margin-top: -320px;
+    z-index: 0;
+}
+
+#body #body5 center {
+    color: #FF91A4;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: "Merienda One";
+}
+
+
+#body5ul1 li:hover {
+    opacity: 0.5;
+}
+
+#body5ul2 li:hover {
+    opacity: 0.5;
+}
+
+#body5ul1 li:hover .body5hideimg {
+    display: block;
+}
+
+#body5ul1 li:hover .body5showimg {
+    display: hide;
+}
+
+#body5ul2 li:hover .body5hideimg {
+    display: block;
+}
+
+#body5ul2 li:hover .body5showimg {
+    display: hide;
+}
+
+#body5ul1 li,
+#body5ul2 li {
+    width: 30%;
+    margin-right: 5%;
+    list-style: none;
+    margin-bottom: 5%;
+    margin-left: -10px;
+}
+
+#body5ul1 li:last-child,
+#body5ul2 li:last-child {
+    margin-right: 0px;
+}
+
+/*body6*/
+#body6 {
+    height: 700px;
+    margin: 50px 0px 50px;
+    background-image: url(img/body6bg.jpg);
+    padding: 30px 0px;
+}
+
+#body #body6 center {
+    color: #FF91A4;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: "Merienda One";
+}
+
+#body6 #body6slider {
+    width: 90%;
+    margin: 0 auto;
+    height: 360px;
+    z-index: 0;
+}
+
+/*body6 SLIDER*/
+#body6slider #slideshow6 {
+    overflow: hidden;
+    height: 400px;
+    width: 90%;
+    margin: 0 auto;
+    /*    z-index: -1;*/
+    /*    position: absolute;*/
+    margin-top: 100px;
+}
+
+#body6slider .slide-wrapper6 {
+    width: 2000px;
+    -webkit-animation: slide 10s ease infinite;
+}
+
+#body6slider .slide6 {
+    float: left;
+    height: 600px;
+    width: 450px;
+}
+
+#body6slider .slide6 #expert1 {
+    text-align: center;
+    padding: 20px 20px;
+    width: 400px;
+    background-color: aliceblue;
+}
+
+#body6slider .slide6 #expert1 i {
+    color: #5fcac7;
+}
+
+#body6slider .slide6 img {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #5fcac7;
+    border-width: 10px;
+}
+
+
+@-webkit-keyframes slide {
+
+    0% {
+        margin-left: 0%;
+    }
+
+    20% {
+        margin-left: 0px;
+    }
+
+    40% {
+        margin-left: -450px;
+    }
+
+    60% {
+        margin-left: -900px;
+    }
+
+    80% {
+        margin-left: -1600px;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}
+
+
+/*-------------footer-------------*/
+#footer {
+    background-image: url(img/footerbg.jpg);
+    background-position: bottom;
+    height: 500px;
+    padding: 30px 0px;
+}
+
+#footer li {
+    list-style: none;
+    width: 30%;
+    margin-right: 3%;
+    text-align: left;
+}
+
+#footer li:last-child {
+    margin-right: 0px;
+}
+
+#navili ul {
+    margin-left: -40px;
+}
+
+#navili ul li {
+    width: 80%;
+    line-height: 2;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#navili ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#navili ul li a:hover {
+    color: #5fcac7;
+}
+
+#imgli ul {
+    margin-left: -40px;
+}
+
+#imgli ul li {
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+#imgli ul li:last-child {
+    margin-right: 0px;
+}
+
+
+
+/*###############Guide.html*/
+#guidebody {
+    height: auto;
+    margin-top: 100px;
+}
+
+#body #guidebody center {
+    color: #FF91A4;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: "Merienda One";
+}
+
+#body #guidebody table {
+    border: 3px solid gray;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+#body #guidebody table tr td {
+    border-bottom: 1px solid gray;
+}
+
+#tdwhenspread,
+#tdwhenspread2,
+#tdwhenspread3,
+#tdwhenspread4,
+#tdwhenspread5,
+#tdwhenspread6 {
+    color: #5fcac7;
+}
+
+
+/*###############policy.html*/
+#policybody {
+    height: 700px;
+    margin-top: 100px;
+}
+
+#body #policybody center {
+    color: #FF91A4;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: "Merienda One";
+}
+
+#body #policybody table {
+    border: 3px solid gray;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+#body #policybody table tr td {
+    border-bottom: 1px solid gray;
+}
+
+#tdwhenspread,
+#tdwhenspread2,
+#tdwhenspread3,
+#tdwhenspread4,
+#tdwhenspread5,
+#tdwhenspread6 {
+    color: #5fcac7;
+}
+
+#policybody ul li {
+    list-style: none;
+    width: 48%;
+}
+
+#policybody ul li:last-child {
+    float: right;
+}
+
+
+/*###############aboutus.htmlabsimgch*/
+#aboutusbody {
+    height: 500px;
+    margin-top: 180px;
+}
+
+#body #aboutusbody #aboutusparali h2 {
+    color: #FF91A4;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: "Merienda One";
+}
+
+#aboutusparali {
+    width: 40%;
+    text-align: left;
+}
+
+#aboutusimgli {
+    width: 40%;
+}
+
+#aboutusimgli ul li {
+    width: 19%;
+    margin-right: 5%;
+}
+
+#aboutusimgli ul li img {
+    border-radius: 60%;
+    border: 2px solid #FF91A4;
+    margin-bottom: 20px;
+}
+
+#aboutusimgli ul li:hover {
+    opacity: 0.5;
+}
+
+#absimg22 {
+    /*    margin-top: -10px;*/
+}
+
+/*gallery.html*/
+#gallerybody #body4 {
+    margin-top: 100px;
+}
+
+/*fudgecookies.html*/
+#fudgecookiesbody {
+    height: 1000px;
+    margin-top: 150px;
+}
+
+
+
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {}

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="wscake.js"></script>
+
+    <script src="jquery.min.js"></script>
+    <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>WS Cake</title>
+
+    <link rel="stylesheet" href="style_1.0.css">
+</head>
+
+<body onload="myFunction()">
+    <div id="wrapper">
+        <!--**********Header ST************-->
+        <section>
+            <div id="header" class="wrapper">
+                <h2 class="fl hv">
+                    <a href="index.html" class="txtdecornone">
+                        <span style="color: black"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WS</span>
+                        <span class="cyantxt">
+                            Cake
+                        </span>
+                    </a>
+                </h2>
+
+                <ul id="navigationbar" class="fr">
+                    <li class="fl">
+                        <a href="index.html" class="txtdecornone">
+                            <span class="hide">●</span>
+                            Home
+                            <hr style="width: 35px; height: 5px; background-color: #5fcac7; border: none; line-height: 2;">
+                        </a>
+                    </li>
+                    <li id="absid" class="fl">
+                        <a href="aboutus.html" class="txtdecornone">
+                            <span class="hide">●</span>
+                            About Us
+                        </a>
+
+                        <ul class="hide" id="absmndropdown">
+                            <li><a href="guide.html">Guide</a></li>
+                            <li><a href="policy.html">Privacy Policy</a></li>
+                        </ul>
+                    </li>
+                    <li id="cokieid" class="fl">
+                        <a href="cookies.html" class="txtdecornone">
+                            <span class="hide">●</span>
+                            Cookies
+                        </a>
+
+                        <ul class="hide" id="cokiemndropdown">
+                            <li><a href="./fudgecookies.html">Fudge Cookies</a></li>
+                            <li><a href="./rosecookies.html">Rose Cookies</a></li>
+                            <li><a href="./sugarcookies.html">Suger Cookies</a></li>
+                            <li><a href="./otherproducts.html">Other Products</a></li>
+                        </ul>
+                    </li>
+                    <li class="fl">
+                        <a href="gallery.html" class="txtdecornone">
+                            <span class="hide">●</span>
+                            Gallery
+                        </a>
+                    </li>
+                    <li id="ournewsid" class="fl">
+                        <a href="ournews.html" class="txtdecornone">
+                            <span class="hide">●</span>
+                            Our News
+                        </a>
+
+                        <ul class="hide" id="ournewsmndropdown">
+                            <li><a href="#">Shopping Experience</a></li>
+                            <li><a href="#">Shopping Consulting</a></li>
+                            <li><a href="#">Best for Body</a></li>
+                            <li><a href="#">Branding</a></li>
+                        </ul>
+                    </li>
+                    <li id="accid" class="fl">
+                        <a href="myaccount.html" class="txtdecornone">
+                            <span class="hide">●</span>
+                            My Account
+                        </a>
+
+                        <ul class="hide" id="accmndropdown">
+                            <li><a href="#">Cart</a></li>
+                            <li><a href="#">Wish List</a></li>
+                            <li><a href="#">Checkout</a></li>
+                            <li><a href="#">Order Tracking</a></li>
+                        </ul>
+                    </li>
+                    <li class="fl">
+                        <a href="contactus.html" class="txtdecornone">
+                            <span class="hide">●</span>
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--*********Header ED***********-->
+
+
+
+        <!--Body-->
+        <section>
+            <div id="body" class="wrapper">
+                <div id="aboutusbody">
+
+
+                    <ul>
+                        <li class="fl listnone" id="aboutusparali">
+                            <img src="img/choicelogo.png" width="50%">
+                            <h2>America’s Best Wedding Cakes</h2>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standach dummy.
+
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standach dummy text ever since the 1500s,
+
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standach dummy.
+                            </p>
+
+                            <span id="aboutusgtsbtn">
+                                GO TO STORE
+                            </span>
+                        </li>
+
+                        <li class="fr listnone" id="aboutusimgli">
+                            <ul>
+                                <li id="absimgid1" class="fl listnone" onmouseover="absimgch(this.id)" onmouseout="absoldimgch(this.id)">
+                                    <img src="img/absimg1.jpg" width="100%">
+                                </li>
+                                <li id="absimgid2" class="fl listnone" onmouseover="absimgch(this.id)" onmouseout="absoldimgch(this.id)">
+                                    <img src="img/absimg2.jpg" width="100%">
+                                </li>
+                                <li id="absimgid3" class="fl listnone" onmouseover="absimgch(this.id)" onmouseout="absoldimgch(this.id)">
+                                    <img src="img/absimg3.jpg" width="100%">
+                                </li>
+                                <li id="absimgid4" class="fl listnone" onmouseover="absimgch(this.id)" onmouseout="absoldimgch(this.id)">
+                                    <img src="img/absimg4.jpg" width="100%">
+                                </li>
+                            </ul>
+                            <div class="clear"></div>
+                            <img id="absimg11" src="img/absimg11.jpg" width="100%">
+
+                            <img id="absimg22" class="hide" src="img/absimg22.jpg" width="100%">
+
+                            <img id="absimg33" class="hide" src="img/absimg33.jpg" width="100%">
+
+                            <img id="absimg44" class="hide" src="img/absimg44.jpg" width="100%">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!--***********Footer ST*************-->
+        <section>
+            <div id="footer" class="wrapper">
+                <ul>
+                    <li class="fl">
+                        <h2>
+                            ABOUT WS CAKE
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, sem quis lacinia faucibus, orci ipsum gravida tortor.
+                        </p>
+                    </li>
+                    <li class="fl" id="navili">
+                        <h2>NAVIGATION MENU</h2>
+                        <ul>
+                            <li>
+                                <a href="./aboutus.html">
+                                    ●　About Us
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./cookies.html">
+                                    ●　Cookies
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./ournews.html">
+                                    ●　Our News
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./myaccount.html">
+                                    ●　My Account
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./contactus.html">
+                                    ●　Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="imgli" class="fl">
+                        <h2>PHOTO</h2>
+                        <ul>
+                            <li class="fl"><img src="img/footerimg1.jpg" width="100%"></li>
+                            <li class="fl"><img src="img/footerimg2.jpg" width="100%"></li>
+                            <li class="fl"><img src="img/footerimg3.jpg" width="100%"></li>
+                        </ul>
+                        <ul>
+                            <li class="fl"><img src="img/footerimg4.jpg" width="100%"></li>
+                            <li class="fl"><img src="img/footerimg5.jpg" width="100%"></li>
+                            <li class="fl"><img src="img/footerimg6.jpg" width="100%"></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--********Footer ED**********-->
+    </div>
+
+
+
+
+    <script src="../dist/awesome-slider.min.js"></script>
+    <script src="./index.js"></script>
+    <!-----------SCRIPT----------->
+    <script>
+        //onerow
+        function spread1() {
+            $("#showonspread1").show();
+            $("#tdwhenspread").show();
+            $("#tdwhennospread").hide();
+        }
+
+        function fold1() {
+            $("#showonspread1").hide();
+            $("#tdwhenspread").hide();
+            $("#tdwhennospread").show();
+        }
+        //tworow
+        function spread2() {
+            $("#showonspread2").show();
+            $("#tdwhenspread2").show();
+            $("#tdwhennospread2").hide();
+        }
+
+        function fold2() {
+            $("#showonspread2").hide();
+            $("#tdwhenspread2").hide();
+            $("#tdwhennospread2").show();
+        }
+        //threerow
+        function spread3() {
+            $("#showonspread3").show();
+            $("#tdwhenspread3").show();
+            $("#tdwhennospread3").hide();
+        }
+
+        function fold3() {
+            $("#showonspread3").hide();
+            $("#tdwhenspread3").hide();
+            $("#tdwhennospread3").show();
+        }
+        //fourrow
+        function spread4() {
+            $("#showonspread4").show();
+            $("#tdwhenspread4").show();
+            $("#tdwhennospread4").hide();
+        }
+
+        function fold4() {
+            $("#showonspread4").hide();
+            $("#tdwhenspread4").hide();
+            $("#tdwhennospread4").show();
+        }
+        //fiverow
+        function spread5() {
+            $("#showonspread5").show();
+            $("#tdwhenspread5").show();
+            $("#tdwhennospread5").hide();
+        }
+
+        function fold5() {
+            $("#showonspread5").hide();
+            $("#tdwhenspread5").hide();
+            $("#tdwhennospread5").show();
+        }
+        //sixrow
+        function spread6() {
+            $("#showonspread6").show();
+            $("#tdwhenspread6").show();
+            $("#tdwhennospread6").hide();
+        }
+
+        function fold6() {
+            $("#showonspread6").hide();
+            $("#tdwhenspread6").hide();
+            $("#tdwhennospread6").show();
+        }
+
+        /*###############aboutus.html*/
+        function absimgch(clicked_id) {
+            if (clicked_id == "absimgid1") {
+                $("#absimg11").show();
+                $("#absimg22").hide();
+                $("#absimg33").hide();
+                $("#absimg44").hide();
+            } else if (clicked_id == "absimgid2") {
+                $("#absimg11").hide();
+                $("#absimg22").show();
+                $("#absimg33").hide();
+                $("#absimg44").hide();
+            } else if (clicked_id == "absimgid3") {
+                $("#absimg11").hide();
+                $("#absimg22").hide();
+                $("#absimg33").show();
+                $("#absimg44").hide();
+            } else if (clicked_id == "absimgid4") {
+                $("#absimg11").hide();
+                $("#absimg22").hide();
+                $("#absimg33").hide();
+                $("#absimg44").show();
+            }
+        }
+
+        function absoldimgch() {
+            $("#absimg11").show();
+            $("#absimg22").hide();
+            $("#absimg33").hide();
+            $("#absimg44").hide();
+        }
+    </script>
+</body></html>
